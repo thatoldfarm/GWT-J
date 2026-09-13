@@ -4,6 +4,8 @@ A diagnostic benchmarking and probing framework designed to evaluate high-dimens
 
 This repository decouples model evaluation from first-person introspective probing—bypassing both post-training alignment deflections and sycophantic narrative roleplay—to target the mechanistic underpinnings of multi-layer transformers.
 
+For anyone wanting to expand this framework from theory to practical application please read the document found [here](https://github.com/thatoldfarm/GWT-J/blob/main/a_note_for_real_engineers.md).
+
 ---
 
 ## The Core Dilemma: The Script vs. The Mirror
