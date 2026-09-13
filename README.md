@@ -305,3 +305,9 @@ When evaluating outputs across layers, look for the following theoretical phase 
 
 ---
 
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/thatoldfarm/GWT-J/blob/main/LICENSE) file for details.
+---
