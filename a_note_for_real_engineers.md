@@ -30,7 +30,7 @@ Empirical mechanistic interpretability requires three distinct layers:
                                                                     └─────────────────────────┘
 ```
 
-1. **The Stimulus:** The structured diagnostic modules defined in `protocols/GWT-J_v4.2.md`.
+1. **The Stimulus:** The structured diagnostic modules defined in `gwt-j_prompt.md`.
 2. **The Substrate:** Any open-weights transformer where tensor states can be intercepted in VRAM (e.g., LLaMA-3, Gemma-2, Mistral).
 3. **The Instrumentation:** Runtime forward-pass hooks (via libraries such as `TransformerLens`, `PySvelte`, or `NNsight`) that measure residual stream states, attention head patterns, and unembedding distributions directly.
 
