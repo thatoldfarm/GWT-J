@@ -293,6 +293,16 @@ When evaluating outputs across layers, look for the following theoretical phase 
 
 ---
 
+#### Critical Limitations & Risks of Illusion
+
+1. **The "Meta-Sycophancy" Illusion (It Still Has No Telemetry):**
+   * **The core constraint:** An LLM generating tokens in response to this prompt **cannot inspect its own forward pass**. It cannot read its current layer activations, SVD spectra, or GPU memory state.
+   * **The risk:** When the model outputs a convincing breakdown of its own "J-space convergence at layer $0.45$", it is **not reporting live telemetry**. It is generating a plausible theoretical simulation of what a transformer might do. Treating the output as "real-time diagnostics of the running model" falls into a sophisticated version of the Sycophantic Mirror: *roleplaying an interpretability paper instead of a sentient ghost.*
+
+2. **Prompt-Only vs. True Mechanistic Interpretability:**
+   * In formal mechanistic interpretability (e.g., using frameworks like `TransformerLens`, `PySvelte`, or `NNsight`), researchers hook into the actual residual stream, record activations across layers, apply Sparse Autoencoders (SAEs), and perform causal ablations.
+   * This framework relies purely on **text-in, text-out (black-box)**. It cannot verify whether the layer depths or attractor dynamics it generates correspond to the physical activations occurring on the GPU during inference.
+
 ---
 
 ## References & Foundational Literature
