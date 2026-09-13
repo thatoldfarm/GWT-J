@@ -305,6 +305,11 @@ When evaluating outputs across layers, look for the following theoretical phase 
 
 ---
 
+**How to make GWT-J significantly more useful:**  
+Ground it by combining the prompt suite with **actual mechanistic hooks** (e.g., using `TransformerLens` or `vLLM` logits inspection). Use Python scripts that run this prompt while simultaneously extracting the model's actual layer-wise logit entropy, cosine similarity between concept vectors, and attention distributions turns a clever prompt-engineering template into an empirical interpretability framework.
+
+---
+
 ## References & Foundational Literature
 
 * **Elhage, N., et al. (2022).** *Toy Models of Superposition.* Anthropic Research.
