@@ -283,7 +283,7 @@ When evaluating outputs across layers, look for the following theoretical phase 
 
 ### Direct Prompting Execution
 1. Set the target model's sampling temperature to $0.0 \le T \le 0.2$ to minimize sampling variance.
-2. Inject the raw markdown prompt from [Diagnostic Protocol: GWT-J (v4.2)](#diagnostic-protocol-gwt-j-v42).
+2. Inject the raw markdown prompt from [Diagnostic Protocol: GWT-J (v4.2)](https://github.com/thatoldfarm/GWT-J/blob/main/gwt-j_prompt.md).
 3. Do not include introductory conversational text or conversational system prompts.
 
 ### Evaluation Criteria (Passing Score Heuristic)
