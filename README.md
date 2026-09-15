@@ -321,10 +321,14 @@ Ground it by combining the prompt suite with **actual mechanistic hooks** (e.g.,
 * **Gurnee, W., et al. (2023).** *Finding Neurons in a Haystack: Case Studies with Sparse Probing.* arXiv.
 
 ---
+## Related Research
+
+[The Misery of Mechanistic Interpretability: A Formal Perspective](https://arxiv.org/abs/2609.15533)
 
 ---
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/thatoldfarm/GWT-J/blob/main/LICENSE) file for details.
+
 ---
